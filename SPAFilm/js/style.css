@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 2018-03-12, 14:37:05
+    Author     : e1695946
+*/
+.titrepass {
+  width: 25%;
+}
+.col-sm-10 {
+  width: 60%;
+}
+.col-form-label {
+  width: 40%;
+}
+.formDevenirMembre {
+  background-color: cornflowerblue;
+  font-family: source-sans-pro, sans-serif;
+  width: 500px;
+  margin: auto;
+}
+
+.h1DevenirMembre {
+  margin-left: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 2.8em;
+  color: #ffffff;
+}
+
+.formStyle {
+  background-color: cornflowerblue;
+  padding: 20px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ecf0f1;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  font-size: 1em;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.formButton {
+  float: right;
+  display: inline-block;
+  background-color: #ffffff;
+  color: cornflowerblue;
+  font-size: 28px;
+  font-weight: 500;
+  padding: 6px 24px;
+  margin-top: 15px;
+  margin-right: 60px;
+  text-decoration: none;
+}
+
+.formButton:hover {
+  background-color: cornflowerblue;
+  color: #ffffff;
+}
+
+.formButton:active {
+  position: relative;
+  top: 3px;
+}
+
+/*To remove the outline that appears on clicking the input textbox*/
+input:focus {
+  outline: none;
+}
+
+/* To format the placeholder text color */
+::-webkit-input-placeholder {
+  color: #ecf0f1;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ecf0f1;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ecf0f1;
+}
+
+:-ms-input-placeholder {
+  color: #ecf0f1;
+}

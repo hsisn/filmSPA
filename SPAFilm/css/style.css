@@ -1,0 +1,13 @@
+/*.form-inline {
+    padding:10px;
+}
+*/
+
+.ligne_horizontal {
+  width: 900px;
+  border: 2px solid black;
+}
+
+.total {
+  color: red;
+}
