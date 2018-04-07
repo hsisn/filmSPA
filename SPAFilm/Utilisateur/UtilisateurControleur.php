@@ -47,6 +47,7 @@ function register() {
     $display_name = $_POST['display_name'];
     $email = $_POST['email'];
     $password = md5($_POST['password']);
+    $date = date('Y-m-d H:i:s');
     //$confirm_password= $_POST['confirm_password'];
 
 
@@ -56,13 +57,13 @@ function register() {
         $unModele = new circuitModel();
 
         $requete = "INSERT INTO member VALUES(0,?,?,?,?,?,?)";
-        $unModele = new circuitModel($requete, array($first_name, $last_name, $display_name, $email, $password.null));
+        $unModele = new circuitModel($requete, array($first_name, $last_name, $display_name, $email, $password , $date));
         $stmt = $unModele->executer();
         $tabRes['action'] = "register";
         $tabRes['msg'] = "utilisateur bien enregistrer";
     } catch (Exception $e) {
-
         echo $e;
+        
     } finally {
         unset($unModele);
     }

@@ -132,7 +132,7 @@ resul+="<div class='row'>";
 
             resul+="<hr class='colorgraph'>";
             resul+="<div class='row'>";
-                resul+="<div class='col-xs-12 col-md-6'><input type='button' name='submit' value='Enregistrer' class='btn btn-primary btn-block btn-lg' tabindex='7' onClick='registerU();'></div>";
+                resul+="<div class='col-xs-12 col-md-6'><input type='button' name='submit' value='Enregistrer' class='btn btn-primary btn-block btn-lg' tabindex='7' onClick='registerU();listerTT();'></div>";
                 resul+="<div class='col-xs-12 col-md-6'><a href='login.php' class='btn btn-success btn-block btn-lg'>Se connecter</a></div>";
             resul+="</div>";
         resul+="</form>";
